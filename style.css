@@ -128,7 +128,8 @@ button {
 .text-section {
   background-color: #eee;
   margin: 0 auto;
-  padding: 4.25rem;
+  padding: 4rem;
+  box-shadow: inset 1px 1px rgba(119, 119, 119, 0.131);
 }
 
 .text-section > .wrap {
@@ -136,6 +137,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0.15rem;
 }
 
 .text-section__text {
@@ -146,13 +148,13 @@ button {
 .button-main {
   background-color: white;
   transition: background-color 0.2s ease-in-out;
+  padding: 1rem 2rem;
 }
 
 footer {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.85rem;
   background-color: rgb(205, 231, 255);
 }
 
@@ -190,7 +192,7 @@ footer {
   }
 
   100% {
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.609);
     box-shadow: 0 0 2px 2px black;
   }
 }
